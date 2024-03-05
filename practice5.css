@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(166, 243, 243);
+}
+nav {
+    margin: 0px 5px 20px 5px ;
+    text-align: center;
+    background-color: rgb(3, 3, 3);
+    padding: 10px;  
+}
+nav a{
+    text-decoration: none;
+    padding: 15px 15px;
+    color: rgb(4, 0, 255);
+}
+
+div.one {
+    position: relative;
+    width: 30%;
+    height: 150px;
+    border: 2px solid red;
+    background-color: rgb(241, 68, 68);
+    margin: 0 3% 0 2%;
+    float: left;
+}
+div.one>div{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width:24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: blue;
+    text-align: center;
+    padding-top: 3px;
+
+}
+div.two {
+    position: relative;
+    width: 30%;
+    height: 150px;
+    border: 2px solid red;
+    background-color: rgb(71, 68, 241);
+    margin-right: 3%;
+    float: left;
+
+
+}
+div.two>div{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width:24px;
+    height: 24px;
+    background-color: rgb(221, 221, 238);
+    text-align: center;
+    color: rgb(30, 32, 32);
+    padding-top: 1.9px;
+}
+
+div.three {
+    position: relative;
+    width: 30%;
+    height: 150px;
+    border: 2px solid red;
+    background-color: rgb(68, 241, 160);
+    float: left;
+    margin-right: 2%;
+}
+div.three>div{
+    position:absolute;
+    left:-12px;
+    top: -12px;
+    width:24px;
+    height: 24px;
+    padding-top: 2px;
+    background-color: rgb(221, 221, 238);
+    text-align: center;
+    color: rgb(23, 24, 23);
+    float:left;
+}
+
+div.four {
+    position: relative;
+    margin: 2% 3% 2% 2%;
+    width: 63%;
+    height: 150px;
+    border: 2px solid red;
+    background-color: rgb(99, 231, 99);
+    float: left;
+}
+div.four>div{
+    position:absolute;
+    left:60%;
+    bottom: -12px;
+    width:24px;
+    height: 24px;
+    padding-top: 2.5px;
+    background-color: rgb(221, 221, 238);
+    text-align: center;
+    color: rgb(23, 24, 23);
+    float:left;
+}
+div.five {
+    position: relative;
+    margin:2% 2% 2% 0%;
+    width: 30%;
+    height: 150px;
+    border: 2px solid red;
+    background-color: rgb(241, 68, 68);
+    float: left;
+}
+div.five>div{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width:24px;
+    height: 24px;
+    padding-top: 3px;
+    border-radius: 50%;
+    background-color: rgb(221, 221, 238);
+    text-align: center;
+    color: rgb(29, 31, 31);
+}
+
+div.six{
+    position: relative;
+    margin:0% 3% 8% 2%;
+    width: 30%;
+    height: 120px;
+    border: 0px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    overflow: scroll;
+}
+
+div.seven{
+    position: relative;
+    margin:0% 2% 8% 0%;
+    width: 63%;
+    height: 120px;
+    border: 0px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    overflow: scroll;
+}
+div>p{
+    background-color: rgb(184, 169, 169);
+}
+
+footer{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);;
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice3</title>
+    <link rel="stylesheet" media="screen and (min-width: 769px)" href="practice3.css">
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 425px)" href="practice3_1.css">
+    <link rel="stylesheet" href="practice3_1.css">
+    <script src="https://kit.fontawesome.com/80a095a1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <h1>Employee Details</h1>
+        <form>
+            <p class="emp">
+            <label for="EmNumber"><i class="fa-solid fa-pen"></i></label>
+            <input type="text" id="EmNumber" name="EmNumber" placeholder="Enter Employee Number"><br><br>
+
+            <label for="fname"><i class="fa-solid fa-user"></i></label>
+            <input type="text" id="fname" name="fname" placeholder="Enter First Name" ><br><br>
+
+            <label for="lname"><i class="fa-solid fa-user"></i></label>
+            <input type="text" id="lname" name="lname" placeholder="Enter Last Name"></p>
+
+            <p >
+                <span class="tskill">
+                <label for="techskills">Technical Skills:</label></span>
+                <input type="checkbox" id="html" name="techskills" value="HTML">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css" name="techskills" value="CSS">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="javascript" name="techskills" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" id="ASP.NET" name="techskills" value="ASP.NET">
+                <label for="ASP.NET">ASP.NET</label>
+                <input type="checkbox" id="jQuery" name="techskills" value="jQuery">
+                <label for="jQuery">jQuery</label>
+            </p> 
+            <p>
+            <span class="gender"><Label for="Gender">Gender:</Label></span><br>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" name="Gender" id="Other">
+            <label for="Other">Other</label>
+        </p>
+
+            <p class="dept">
+                <input list="Departments" placeholder="Select Department">
+                <datalist id="Departments">
+                    <option  value="department-one">department-one</option>
+                    <option  value="department-two">department-two</option>
+                    <option  value="department-three">department-three</option></datalist>
+            <span class="desig">
+                <input list="Designations" placeholder="Select Designation">
+               <datalist id="Designations">
+                <option  value="designation-one">designation-one</option>
+                <option  value="designation-two">designation-two</option>
+                <option  value="designation-three">designation-three</option>
+            </datalist>
+            </span></p><br>
+
+            <p class="dob">
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" name="DOB" id="DOB"></p>
+
+           <p class="sal">
+            <label for="Salary">Salary:</label>
+            <input type="text" name="Salary" id="Salary" placeholder="Enter your Current Salary"></p>
+
+
+            <p class="detail">
+            <label for="email"><i class="fa-solid fa-envelope"></i></label>
+            <input type="email" name="email" id="email" placeholder="Enter Email address"><br><br>
+
+            <label for="phone"><i class="fa-solid fa-phone"></i></label>
+            <input type="tel" name="phone" placeholder="Enter Mobile Number">
+            </p>
+            <p class="resume">
+                <label for="Upload Resume">Upload Resume:</label><br><br>
+                <input type="file" name="upload Resume" placeholder="choose file">
+            </p> <br>
+
+            <p class="button">
+            <button class="styled" type="button">Create</button> <button class="styled" type="button">Update</button> <button class="styled" type="button">Delete</button>
+            </p>
+        </form>
+    </div>
+    
+</body>
+</html>
